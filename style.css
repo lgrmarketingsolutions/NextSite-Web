@@ -470,11 +470,12 @@ input:hover{
 @media (max-width: 768px) {
     body{
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
     /* Container */
     .container{
         z-index: 100;
-        
     }
     .container img{
         height: 50px;
@@ -490,7 +491,10 @@ input:hover{
     }
 
     /*Inicio*/
-    .inicio{padding-left: 30px;}
+    .inicio{
+        padding-left: 30px;
+         overflow: hidden
+        }
     .inicio h1, button{
         white-space: pre-line;
         position: relative;
@@ -514,7 +518,7 @@ input:hover{
         flex-direction: column; 
         position: relative;
         width: 100%;
-        align-items: center;  
+        align-items: center;
     }
     .empresa {
         margin-right: 0; 
