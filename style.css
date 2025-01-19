@@ -468,6 +468,9 @@ input:hover{
 }
 
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
     /* Container */
     .container{
         z-index: 100;
